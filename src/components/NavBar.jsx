@@ -14,18 +14,18 @@ const data = [
         to: '/'        // URL path for navigation
     },
     {
-        label: 'Projects',
-        to: '/about'
+        label: 'Project',
+        to: '/Project'
     },
 
     {
         label: 'Internships',
-        to: '/about'
+        to: '/Internship'
     },
 
     {
         label: 'Contact',
-        to: '/about'
+        to: '/Contact'
     }
 ]
 
@@ -66,14 +66,14 @@ const NavBar = () => {
             </button>
 
              {/* Button for "internships" - Clicking navigates to '/about' */}
-             <button onClick={() => handleNavingateToPage(data[1].to)}>
+             <button onClick={() => handleNavingateToPage(data[2].to)}>
                 <span className="navbar__button">
                     {data[2].label} {/* Displays "internship" */}
                 </span>
             </button>
 
              {/* Button for "Contact me" - Clicking navigates to '/about' */}
-             <button onClick={() => handleNavingateToPage(data[1].to)}>
+             <button onClick={() => handleNavingateToPage(data[3].to)}>
                 <span className="navbar__button">
                     {data[3].label} {/* Displays "contact me" */}
                 </span>
