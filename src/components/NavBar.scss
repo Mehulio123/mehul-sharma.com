@@ -1,26 +1,30 @@
 .navbar{
-    width: 100%;
-    background-color: blue;
+    width: 100%;//width of the navbar
+    background:linear-gradient(to right, #00970A, #004010);//making it gradient 
     height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);//making the pop up effect
 
-    button{
+    button{//the settings for the button and how it should operate
         height: 50px;
         width: 100px;
-        background-color: blue;
-        border: 2px white solid;
-
-        
-        span{
-            color:white;
-        }
+        background: none;
+        border: none;
+        text-decoration: none;
+        cursor:pointer;
+        color:white;
+    
     }
     
-    button:hover{
-        background-color: darkblue;
+    button:hover{//the swttings for the button hover
+        transform: translateY(-2px);
+    }
+
+    button:focus {
+        outline:none;//removes focus outline
     }
 }
