@@ -24,7 +24,7 @@ const data = [
     },
 
     {
-        label: 'Contact Me',
+        label: 'Contact',
         to: '/about'
     }
 ]

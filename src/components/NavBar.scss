@@ -1,14 +1,19 @@
 .navbar{
-    width: 100%;//width of the navbar
+    width: 650px;//width of the navbar from figma
     background:linear-gradient(to right, #00970A, #004010);//making it gradient 
-    height: 70px;
+    height: 76px;
+    opacity: 75%;
     display: flex;
+    border-radius: 0 10px 10px 0; //rounding the edges
     flex-direction: row;
-    justify-content: center;
+    justify-content: right;//even spacing between buttons
     align-items: center;
-    gap: 10px;
-    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);//making the pop up effect
-
+    gap: 70px;//USE THIS GAP WHEN ADDING ANOTHER PAGE
+    padding: 0 30px; //adds pad to maintain spacing
+    position: absolute;
+    top:47px; //matches y pos from sigma
+    left: 750px; right: auto;//aligning it correctly
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);//create an angled left edge
     button{//the settings for the button and how it should operate
         height: 50px;
         width: 100px;
@@ -17,11 +22,13 @@
         text-decoration: none;
         cursor:pointer;
         color:white;
-    
+        font-size: 22px;
+        font-family: "Jacques Francois", serif;
+        transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);//makes the navbar come up/dowm slowly
     }
     
-    button:hover{//the swttings for the button hover
-        transform: translateY(-2px);
+    button:hover{//the settings for the button hover
+        transform: translateY(-3px);
     }
 
     button:focus {
