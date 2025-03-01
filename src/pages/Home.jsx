@@ -28,6 +28,9 @@ export const Home = () => {
             </p>
             </div>
         </div>
+        <h1 className="personal-highlights">
+                Personal Highlights
+            </h1>
     </div>
     );
 };
