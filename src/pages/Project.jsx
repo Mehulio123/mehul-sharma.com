@@ -1,7 +1,10 @@
+import React from "react"
+import "./Project.scss"
+
 export const Project = () => {
     return (  
-        <div>
-            <h1>Projects</h1>
+        <div className="project">
+            <h1 className="title">Projects</h1>
         </div>
     );
 }
