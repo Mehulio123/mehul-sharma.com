@@ -11,24 +11,28 @@ export const Home = () => {
             <h1 className="Home_title">
                 Hello, I am Mehul and <br /> Welcome to my Portfolio!
             </h1>
+
+
         {/* About Me Section */}
-        <div className="about-me">
-            <h2>About Me</h2>
-            <div className="my-picture">
-            <img src={meImage} />
-            </div>
-            <div className="about-me-text">
-            <p>
-                I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
-                I love creating beautiful and functional web applications.
-                I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
-                I love creating beautiful and functional web applications.
-                I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
-                I love creating beautiful and functional web applications.
-                I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
-                I love creating beautiful and functional web applications.
-                I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
-            </p>
+        <div className="about-me-section">
+            <div className="about-me">
+                <h2>About Me</h2>
+                <div className="my-picture">
+                <img src={meImage} />
+                </div>
+                <div className="about-me-text">
+                <p>
+                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
+                    I love creating beautiful and functional web applications.
+                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
+                    I love creating beautiful and functional web applications.
+                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
+                    I love creating beautiful and functional web applications.
+                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
+                    I love creating beautiful and functional web applications.
+                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
+                </p>
+                </div>
             </div>
         </div>
 
@@ -63,7 +67,7 @@ export const Home = () => {
                     </div>
                 </div>
             </div> 
-            <button ClassName="contact-button" onClick={()=> window.location.href="./contact"}>
+            <button className="contact-button" onClick={()=> window.location.href="./contact"}>
                 Contact me
             </button>
 
