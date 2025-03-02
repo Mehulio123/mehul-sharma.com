@@ -1,4 +1,6 @@
 
+
+
 .project {
     background-color: black;
     display: flex; 
@@ -9,6 +11,74 @@
     color: white; 
     font-family: "Jacques Francois", serif;
     .title {
-        
+        //display:flex; 
+        //flex-direction: left;
+        //justify-content: flex-start;
+        margin-bottom: 1400px;
+        margin-right: 1250px;
+        font-size: 50px;
+    } // 🛠 Fixes Filter Button Positioning
+    .filter-buttons {
+        display: flex;
+        gap: 15px;
+        margin-left: 600px;
+        margin-bottom: 1000px; // Add spacing before projects
+        button {
+            background: linear-gradient(to right, #666, #333);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-family: "Jacques Francois", serif;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    // 📌 Fixes Project Grid Alignment
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); // Auto layout
+        gap: 30px; // Space between projects
+        width: 80%;
+        justify-content: center;
+        margin-right: 2000px;
+    }
+
+    .project-box {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.8);
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+        }
+    }
+
+    .project-box:hover {
+        transform: scale(1.05);
     }
 }
