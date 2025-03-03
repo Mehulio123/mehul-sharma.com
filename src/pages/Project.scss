@@ -64,8 +64,9 @@
         display: grid;//using a grid display to map the projects
         grid-template-columns: repeat(auto-fit, 350px); // Repeat pattern
         gap: 20px;//gap between them
+        //row-gap: 20px;
         width: 80%;//what percent of the screen they should span horizontally
-
+        margin-bottom: 20%;
     }
     
     .project-box {
@@ -76,7 +77,7 @@
         cursor: pointer;//pointer status
         transition: transform 0.3s ease-in-out;
         text-align: center;//putting the text in the center
-        margin-bottom: 20%;//making sure there's space at the bottom
+        //margin-bottom: 20%;//making sure there's space at the bottom
     
         img {
             width: 100%; //making the image fit 
