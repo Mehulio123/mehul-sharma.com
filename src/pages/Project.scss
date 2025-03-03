@@ -1,84 +1,103 @@
-
-
-
 .project {
-    background-color: black;
-    display: flex; 
-    width: 100%;
-    min-height: 250vh;
-    align-items: center;
-    justify-content: center;
-    color: white; 
+    background-color: black;//setting the background color
+    width: 100%;//we set the width to cover 100% of the screen
+    min-height: 100vh; // we set the height to be 100% of the view port
+    display: flex;//this ensures items size dynamically and relatively
+    flex-direction: column; //we want this to happen in a column style (vertically)
+    align-items: center; // this aligns the items to the center of the screen 
+    color: white; //this defines the color of the text
     font-family: "Jacques Francois", serif;
+
     .title {
-        //display:flex; 
-        //flex-direction: left;
-        //justify-content: flex-start;
-        margin-bottom: 1400px;
-        margin-right: 1250px;
+        margin-top: 15%;  //pushing down the title by 15% of the display
         font-size: 50px;
-    } // 🛠 Fixes Filter Button Positioning
+        margin-right: 55%;
+    } 
+
     .filter-buttons {
-        display: flex;
-        gap: 15px;
-        margin-left: 600px;
-        margin-bottom: 1000px; // Add spacing before projects
+        display: flex;//we set the buttons dynamically too
+        flex-direction: row;
+        gap: 2vw;//gap between them
+        margin-bottom: 5vh; //adding space below
+        margin-right: 38.5%;//moving to left
+
         button {
-            background: linear-gradient(to right, #666, #333);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 18px;
+            font-size: 15px;
             font-family: "Jacques Francois", serif;
+            color: rgb(255, 255, 255);
+            border: none;//getting rid of the border
             border-radius: 10px;
-            cursor: pointer;
-            transition: transform 0.3s ease-in-out;
+            padding: 10px 30px;//size of button
+            cursor: pointer;//defining it as a pointable place
+            position: relative; //keeping the position of the buttons relative 
+            transition: transform 0.2s ease-in-out;//the pop up speed
+            background: 0.3s ease-in-out;//pop up speed for background
+            background: #100720; 
         }
 
         button:hover {
-            transform: scale(1.05);
+            transform: scale(1.05);//scaling factor for hovering
+            background: linear-gradient(100deg, #00713a, #003e7c); // hover gradience
         }
-    }
 
-    // 📌 Fixes Project Grid Alignment
-    .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); // Auto layout
-        gap: 30px; // Space between projects
-        width: 80%;
-        justify-content: center;
-        margin-right: 2000px;
-    }
-
-    .project-box {
-        position: relative;
-        width: 300px;
-        height: 200px;
-        border-radius: 10px;
-        overflow: hidden;
-        cursor: pointer;
-        transition: transform 0.3s ease-in-out;
-
-        img {
+        button::before {//adding a before effect 
+            content: "";//adding a before and after click effect
+            position: absolute;
+            top: 0;
+            left: 0;//keeping it aligned with the buttons
             width: 100%;
             height: 100%;
-            object-fit: cover;
-            filter: brightness(0.8);
+            background: radial-gradient(circle, rgba(0, 235, 94, 0.4) 10%, rgba(255,255,255,0) 70%);
+            opacity: 0.2;//keeping the gradience there before click 
+            transition: opacity 1s ease-in-out;
+        }
+        
+        // making the glow effect visible while hovering
+        button:hover::before {
+            opacity: 1;
+        }
+        
+    }
+
+    .projects-grid {
+        margin-right: -12%;//alignment
+        display: grid;//using a grid display to map the projects
+        grid-template-columns: repeat(auto-fit, 350px); // Repeat pattern
+        gap: 20px;//gap between them
+        width: 80%;//what percent of the screen they should span horizontally
+
+    }
+    
+    .project-box {
+        position: relative;
+        background: #222;
+        border-radius: 20px;
+        overflow: hidden;//managing overflow
+        cursor: pointer;//pointer status
+        transition: transform 0.3s ease-in-out;
+        text-align: center;//putting the text in the center
+        margin-bottom: 20%;//making sure there's space at the bottom
+    
+        img {
+            width: 100%; //making the image fit 
+            height: auto;//auto height based on display
+            object-fit: cover;//making the image a cover to the button
         }
 
         .overlay {
-            position: absolute;
-            top: 50%;
+            position: absolute;//putting the overlay text on it
+            top: 50%;//centering it
             left: 50%;
             transform: translate(-50%, -50%);
             color: white;
             font-size: 18px;
-            font-weight: bold;
+            font-weight: bold;//setting for the text
             text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
         }
     }
-
+    
     .project-box:hover {
-        transform: scale(1.05);
+        opacity:0.75;//making the box be darker when hovered
+        transform: scale(1.05);//the scaling for touch
     }
 }

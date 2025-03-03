@@ -8,6 +8,8 @@ const projectData = [
     { id: 2, name: "Lazsicc", category: "business", image: image, link: "/projects/marketing-analysis" },
     { id: 3, name: "Email script", category: "cs", image: image, link: "/projects/machine-learning" },
     { id: 4, name: "App", category: "cs", image: image, link: "/projects/web-development" },
+    { id: 5, name: "App", category: "cs", image: image, link: "/projects/web-development" },
+    { id: 6, name: "App", category: "cs", image: image, link: "/projects/web-development" },
 ];//storing all my projects 
 
 
@@ -29,10 +31,10 @@ export const Project = () => {
                 All
                 </button>
                 <button onClick={()=> setSelectedCategory("business")}>
-                Computer Science
+                Business
                 </button>
                 <button onClick={()=> setSelectedCategory("cs")}>
-                Business
+                Computer Science
                 </button>
             </div>
 

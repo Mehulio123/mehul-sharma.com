@@ -2,7 +2,7 @@
     z-index: 1000;
     //overflow: hidden; 
     width: 650px;//width of the navbar from figma
-    background:linear-gradient(to right, #00970A, #004010);//making it gradient 
+    background:linear-gradient(to right, #00970A, #0f0065);//making it gradient 
     height: 76px;
     opacity: 85%;
     display: flex;
@@ -13,8 +13,9 @@
     gap: 70px;//USE THIS GAP WHEN ADDING ANOTHER PAGE
     padding: 0 30px; //adds pad to maintain spacing
     position: fixed;
-    top:47px; //matches y pos from sigma
-    left: 780px; right: auto;//aligning it correctly
+    top:5%; //matches y pos from sigma
+    margin-left: 50%; 
+    right: auto;//aligning it correctly
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);//create an angled left edge
     button{//the settings for the button and how it should operate
         opacity: 100%;
