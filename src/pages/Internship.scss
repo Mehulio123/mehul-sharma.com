@@ -1,0 +1,105 @@
+.internship {
+    height: 150vh;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    color: white; 
+    background: black;
+    font-family: "Jacques Francois", serif;
+    .title {
+        margin-top: 10%;
+    }
+    .intern-layout {
+        margin-bottom: 10%;
+        //display: flex;
+        //display: grid;//using a grid display to map the projects
+        //grid-template-columns: repeat(auto-fit, 200px);
+
+    }
+    .internship-box {//the boxes settings
+        width: 1200px;  // Set a fixed width
+        height:150px; // Set a fixed height
+        border-radius: 20px; // Optional: rounded corners
+        //overflow: hidden; // Ensures image does not overflow
+        cursor: pointer;
+        position: relative;
+        transition: transform 0.3s ease-in-out;
+        margin-bottom: 3%;
+    
+        img {
+            border-radius: 10px 0 0 10px;
+            opacity: 1;
+            width: 20%;  // Image takes the full width of the box
+            height: 100%; // Image takes the full height of the box
+            object-fit: cover; // Ensures image covers the entire box without distortion
+        } 
+
+        .overlay {
+            position: absolute;//putting the overlay text on it
+            top: 50%;//centering it
+            left: 30%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 18px;
+            font-weight: bold;//setting for the text
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            
+            .title {
+                font-size: 22px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+    
+            .description {
+                font-size: 16px;
+                opacity: 0.4;
+                margin-bottom: 8px;
+            }
+    
+            .skills {
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+    
+                .skill {
+                    font-size: 14px;
+                    padding: 5px 12px;
+                    border: 2px solid #00e676; 
+                    border-radius: 10px;
+                    background: rgba(0, 230, 118, 0.1); 
+                    color: #c0c0c0;
+                    font-weight: bold;
+                    transition: all 0.3s ease-in-out;
+                }
+    
+                .skill:hover {
+                    background: #004e28;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+
+    }
+    
+    .internship-box:hover {
+        //background: radial-gradient( rgba(0, 235, 94, 0.4) 30%, rgba(255,255,255,0) 80%);
+        opacity:0.9;//making the box be darker when hovered
+        transform: scale(1.05);//the scaling for touch
+        border-radius: 20px; 
+    }
+
+    .internship-box:before {//adding a before effect 
+        content: "";//adding a before and after click effect
+        position: absolute;
+        top: 0;
+        left: 0;//keeping it aligned with the buttons
+        width: 100%;
+        height: 100%;
+        background:  rgba(100, 100, 100, 0.4);
+        opacity: 0.4;//keeping the gradience there before click 
+        transition: opacity 1s ease-in-out;
+        border-radius: 20px; 
+    }
+}
