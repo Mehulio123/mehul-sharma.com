@@ -3,12 +3,11 @@ import './Contact.scss';
 
 export const Contact = () => {
     return (  
-        <div>
-           <div className="Contact">
+        <div className="Contact">
            <div className="Contact-title">
             <h1>Contact me!</h1>
+            
             </div> 
-            </div> 
-        </div>
+        </div> 
     );
 }

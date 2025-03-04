@@ -9,6 +9,7 @@
     font-family: "Jacques Francois", serif;
     .title {
         margin-top: 10%;
+        margin-bottom: 5%;
     }
     .intern-layout {
         margin-bottom: 10%;
@@ -37,7 +38,7 @@
 
         .overlay {
             position: absolute;//putting the overlay text on it
-            top: 50%;//centering it
+            top: 40%;//centering it
             left: 30%;
             transform: translate(-50%, -50%);
             color: white;
@@ -53,7 +54,7 @@
             }
     
             .description {
-                font-size: 16px;
+                font-size: 15px;
                 opacity: 0.4;
                 margin-bottom: 8px;
             }
@@ -86,7 +87,7 @@
     .internship-box:hover {
         //background: radial-gradient( rgba(0, 235, 94, 0.4) 30%, rgba(255,255,255,0) 80%);
         opacity:0.9;//making the box be darker when hovered
-        transform: scale(1.05);//the scaling for touch
+        transform: scale(1.03);//the scaling for touch
         border-radius: 20px; 
     }
 

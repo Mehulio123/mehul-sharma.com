@@ -6,11 +6,13 @@ import { Contact } from './pages/Contact';
 import NavBar from './components/NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.scss';
+import ScrollToTop from "./Scrolltop"; 
 
 function App() {
     return (
         <Router>
             <div className="App">
+                <ScrollToTop /> 
                 <NavBar />
                 <Routes>
                     <Route index path='/' element={<Home />} />

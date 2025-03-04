@@ -14,7 +14,7 @@ export const Internship = () => {
     const navigate = useNavigate();
     return (  
         <div className="internship">
-            <h1 className="title">Internship Experience</h1>
+            <h1 className="title">My Internship Experiences!</h1>
             <div className="intern-layout">
                 {InternshipData.map(internship => (//looping throught the internships
                     <div key={internship.id} className="internship-box" onClick={() => navigate(internship.link)}> 
