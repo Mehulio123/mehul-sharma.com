@@ -1,17 +1,7 @@
 import React, { useState } from "react";
 import "./Project.scss"
 import { useNavigate } from "react-router-dom";
-import image from './WLU-Hero.png';
-
-const projectData = [
-    { id: 1, name: "Startup", category: "business", image: image, link: "/projects/business-plan" },
-    { id: 2, name: "Lazsicc", category: "business", image: image, link: "/projects/marketing-analysis" },
-    { id: 3, name: "Email script", category: "cs", image: image, link: "/projects/machine-learning" },
-    { id: 4, name: "App", category: "cs", image: image, link: "/projects/web-development" },
-    { id: 5, name: "App", category: "cs", image: image, link: "/projects/web-development" },
-    { id: 6, name: "App", category: "cs", image: image, link: "/projects/web-development" },
-];//storing all my projects 
-
+import projectData from "./ProjectData";
 
 
 export const Project = () => {
@@ -40,7 +30,7 @@ export const Project = () => {
 
             <div className="projects-grid">
                 {filteredProjects.map(project => (
-                        <div key={project.id} className="project-box" onClick={() => navigate(project.link)}>
+                        <div key={project.id} className="project-box" onClick={() => navigate(`/project/${project.id}`)}>
                             <img src={project.image} alt={project.name} />
                             <div className="overlay">
                                 <p>{project.name}</p>
