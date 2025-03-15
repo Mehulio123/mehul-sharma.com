@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import projectData from "./ProjectData";
-import "./ProjectsPage.scss"
+import InternshipData from "./Internship";
+//import "./ProjectsPage.scss"
 
-export const ProjectsPage = () => {
+export const InternshipPage = () => {
     const {id} = useParams(); //this retrieves the ID from the URL
-    const project = projectData.find(p => p.id === id);//now we find the exact project related to the url
+    const project = InternshipData.find(p => p.id === id);//now we find the exact project related to the url
     //not certain about line above
     return (   
     <div className = "ProjectsPage">

@@ -15,7 +15,7 @@ const projectData = [
         marketing campaigns, managing social media outreach, and leveraging digital tools to streamline operations. Through my role, I gained valuable experience in project management, networking, and problem-solving
         while working alongside like-minded individuals passionate about entrepreneurship. This experience reinforced my ability to work in fast-paced environments, think creatively, and contribute
          to a thriving startup ecosystem.`,
-        link: "https://github.com/Mehulio123/mehul-sharma.com/commits/main",
+        link: "https://artyomg.com/",
         View: "ggfgb"
     },
     { 
