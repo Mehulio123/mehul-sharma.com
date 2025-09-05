@@ -1,9 +1,9 @@
 import React from "react";
 import './Home.scss';
 import meImage from './me.png'; 
-import box1 from './WLU-Hero.png';
-import box2 from './WLU-Hero.png';
-import box3 from './WLU-Hero.png';
+import box2 from './CityGuessr.png';
+import box1 from './Blueprint.jpg';
+import box3 from './PopulationVI.png';
 
 export const Home = () => {
     return (

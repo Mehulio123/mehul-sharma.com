@@ -14,7 +14,7 @@ const projectData = [
         softskills: ["Excel", "Gmail API", "Automation"],
         technicalskills: ["Excel", "Gmail API", "Automation"],
         description: "njfjfvjenfijnefrijnerinjerjinerjinerjinvejnrveinrvinjerinerjnierjinervijfj jenjiinjeineinoeierioeriojerijoerijeijrierbeiojrijoerijoerbijoeijoeiojrb",
-        link: "dfndfijndfvindfnidf",
+        link: "https://uwblueprint.org/about",
         View: "ggfgb"
     },
      { 
@@ -61,7 +61,7 @@ const projectData = [
         link: "dfndfijndfvindfnidf",
         View: "ggfgb" 
      }, 
-    { 
+     { 
         id: "Lazsicc", 
         name: "", 
         category: "business", 
@@ -73,25 +73,25 @@ const projectData = [
         View: "ggfgb"
     },
     { 
-        id: "Double-Degree-Club", 
+        id: "AOT-Cof", 
         name: "App", 
-        category: "cs", 
+        category: "business", 
         image: image,
         softskills: ["Excel", "Gmail API", "Automation"],
         technicalskills: ["Excel", "Gmail API", "Automation"],
         description: "njfjfvjenfijnefrijnerinjerjinerjinerjinvejnrveinrvinjerinerjnierjinervijfj jenjiinjeineinoeierioeriojerijoerijeijrierbeiojrijoerijoerbijoeijoeiojrb",
-        link: "dfndfijndfvindfnidf",
+        link: "https://aot-thecostoffreedom.weebly.com/134.html",
         View: "ggfgb"
      },
     { 
-        id: "Startup", 
-        name: "", 
+        id: "WebsiteCeption", 
+        name: "web", 
         category: "cs", 
         image: image,
         softskills: ["Excel", "Gmail API", "Automation"],
         technicalskills: ["Excel", "Gmail API", "Automation"],
         description: "njfjfvjenfijnefrijnerinjerjinerjinerjinvejnrveinrvinjerinerjnierjinervijfj jenjiinjeineinoeierioeriojerijoerijeijrierbeiojrijoerijoerbijoeijoeiojrb",
-        link: "dfndfijndfvindfnidf",
+        link: "http://localhost:3000/",
         View: "ggfgb"
     },
     { 
