@@ -5,7 +5,8 @@ import Lazsicc from './Lazsicc.png';
 import Lazsoc from './Lazsoc.png';
 import City from './CityGuessr.png';
 import pop from './PopulationVI.png';
-
+import me from './mehu.png';
+import cof from './coffy.png';
 const projectData = [
   { 
     id: "Uw Blueprint", 
@@ -77,7 +78,7 @@ const projectData = [
     id: "AOT-Cof", 
     name: "AOT: The Cost of Freedom", 
     category: "business", 
-    image: image,
+    image: cof,
     softskills: ["Research", "Team Collaboration", "Creative Problem Solving"],
     technicalskills: ["Weebly CMS", "Content Writing", "UX Design"],
     description: "Collaborated with a team to create a themed website analyzing Attack on Titan’s narrative from a philosophical and socio-political perspective. Conducted in-depth research, wrote content sections, and built the site using Weebly CMS. Focused on clean, accessible design and an intuitive reading flow to present complex topics in an engaging format.",
@@ -86,9 +87,9 @@ const projectData = [
   },
   { 
     id: "WebsiteCeption", 
-    name: "Portfolio Website", 
+    name: "Porfolio Website", 
     category: "cs", 
-    image: image,
+    image: me,
     softskills: ["Design Thinking", "Front-End Development"],
     technicalskills: ["React.js", "JavaScript", "Tailwind CSS"],
     description: "Built a personal portfolio website to showcase my technical and business projects in one place. Implemented a component-based structure with React, dynamically rendering projects from a data array. Designed a minimal, modern interface with Tailwind CSS for responsiveness across devices. Added custom animations and hover effects to improve user experience.",

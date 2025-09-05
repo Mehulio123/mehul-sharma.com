@@ -21,16 +21,7 @@ export const Home = () => {
                 <img src={meImage} />
                 </div>
                 <div className="about-me-text">
-                <p>
-                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
-                    I love creating beautiful and functional web applications.
-                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
-                    I love creating beautiful and functional web applications.
-                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
-                    I love creating beautiful and functional web applications.
-                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
-                    I love creating beautiful and functional web applications.
-                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
+                <p>I’m a Computer Science and Business student at the University of Waterloo and Wilfrid Laurier University who loves building things that make people’s lives easier. Over the past few years, I’ve worked on everything from interactive data visualizations to volunteer management systems, and I’ve had the chance to help lead tech efforts for student clubs like LazSoc and LazSICC. Whether it’s automating a tedious process or designing something new from scratch, I get excited about solving problems and seeing ideas come to life. Outside of school and work, I enjoy connecting with people, learning new skills, and finding creative ways to make an impact in my community.
                 </p>
                 </div>
             </div>
