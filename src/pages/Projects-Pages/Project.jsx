@@ -14,7 +14,7 @@ export const Project = () => {
 
     return (  
         <div className="project">
-            <h1 className="title">Projects</h1>
+            <h1 className="title">Projects & EC's</h1>
 
             <div className="filter-buttons">
                 <button onClick={()=> setSelectedCategory("all")}>

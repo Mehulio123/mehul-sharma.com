@@ -22,71 +22,15 @@ export const Home = () => {
                 </div>
                 <div className="about-me-text">
                 <p>
-                Skibidi, skibidi bop—
-                [Pre-Drop]
-Skibidi bop—
-
-[Drop]
-Bop, bop, bop, bop
-Yes, yes, yes, yes
-Skibidi, skibidi bop—
-Bop, bop, bop, bop
-Yes, yes, yes, yes
-Skibidi, skibidi bop—
-Bop, bop, bop, bop
-Bop, bop, bop, bop
-How I go
-How I go
-Bop, bop, bop, bop
-Yes, yes, yes, yes
-Bop, bop, bop, bop
-Bop, bop, bop, bop
-(—PS Time)
-Bop, bop, bop, bop
-Bop, bop, bop, bop
-Bop, bop, bop, bop
-How I go
-How I go
-Bop, bop, bop, bop
-Yes, yes, yes, yes
-Bop, bop, bop, bop
-Bop, bop, bop, bop
-How I go
-
-[Bridge]
-Yes, yes, yes, yes, yes, yes, yes, yes
-Yes, yes, yes, yes, yes, yes, yes, yes
-Yes, yes, yes, yes, yes, yes, yes, yes
-
-[Pre-Drop]
-Skibidi bop—
-Bop, bop, bop, bop
-Yes, yes, yes, yes
-
-[Drop]
-Skibidi, skibidi bop—
-Bop, bop, bop, bop
-Yes, yes, yes, yes
-Skibidi, skibidi bop—
-Bop, bop, bop, bop
-Bop, bop, bop, bop
-How I go
-How I go
-Bop, bop, bop, bop
-Yes, yes, yes, yes
-Bop, bop, bop, bop
-Bop, bop, bop, bop
-(—PS Time)
-Bop, bop, bop, bop
-Bop, bop, bop, bop
-Bop, bop, bop, bop
-How I go
-How I go
-Bop, bop, bop, bop
-Yes, yes, yes, yes
-Bop, bop, bop, bop
-Bop, bop, bop, bop
-How I go
+                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
+                    I love creating beautiful and functional web applications.
+                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
+                    I love creating beautiful and functional web applications.
+                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
+                    I love creating beautiful and functional web applications.
+                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
+                    I love creating beautiful and functional web applications.
+                    I am a passionate developer and designer with experience in React, SCSS, and UI/UX.
                 </p>
                 </div>
             </div>
