@@ -17,7 +17,7 @@ export const ProjectsPage = () => {
                         {project.name}
                     </h1>
                 </div>
-                <img src={project.image} alt={project.name} />
+                <img src={project.banner} alt={project.name} />
             </div>
             
             <h4 className="skill-title">Technical Skills:</h4>

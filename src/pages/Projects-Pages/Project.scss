@@ -11,7 +11,7 @@
     .title {
         margin-top: 15%;  //pushing down the title by 15% of the display
         font-size: 50px;
-        margin-right: 55%;
+        margin-right: 45%;
     } 
 
     .filter-buttons {
@@ -78,13 +78,23 @@
         transition: transform 0.3s ease-in-out;
         text-align: center;//putting the text in the center
         //margin-bottom: 20%;//making sure there's space at the bottom
-    
+        
+       aspect-ratop: 1/1;
+       overflow: hidden;//making boxes warp according to picture
+
         img {
             width: 100%; //making the image fit 
-            height: auto;//auto height based on display
+            height: 100%;//auto height based on display
             object-fit: cover;//making the image a cover to the button
         }
-
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0; // shorthand for top, right, bottom, left: 0
+            background: rgba(0, 0, 0, 0.2); // black tint at 40% opacity
+            transition: background 0.3s ease-in-out;
+            z-index: 1; // make sure it sits above the image but below text
+        }
         .overlay {
             position: absolute;//putting the overlay text on it
             top: 50%;//centering it
@@ -98,7 +108,7 @@
     }
     
     .project-box:hover {
-        opacity:0.75;//making the box be darker when hovered
+        opacity: 0.8;//making the box be lighter when hovered
         transform: scale(1.05);//the scaling for touch
     }
 }

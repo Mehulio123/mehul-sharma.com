@@ -21,7 +21,7 @@ export const Home = () => {
                 <img src={meImage} />
                 </div>
                 <div className="about-me-text">
-                <p>I’m a Computer Science and Business student at the University of Waterloo and Wilfrid Laurier University who loves building things that make people’s lives easier. Over the past few years, I’ve worked on everything from interactive data visualizations to volunteer management systems, and I’ve had the chance to help lead tech efforts for student clubs like LazSoc and LazSICC. Whether it’s automating a tedious process or designing something new from scratch, I get excited about solving problems and seeing ideas come to life. Outside of school and work, I enjoy connecting with people, learning new skills, and finding creative ways to make an impact in my community.
+                <p>Hi, I’m Mehul! I’m studying Computer Science at Waterloo and Business Administration at Laurier, and I love building projects that are cool but can also help people. I’ve worked with UW Blueprint to improve a volunteer platform for 500+ users, supported DBM Systems by streamlining global operations, and developed websites and tools for the Lazaridis Society and international case competitions. I also enjoy creating personal projects like a city guessing game powered by AI and a world population visualizer. What excites me most is collaborating with great teams, solving problems, and turning ideas into products people actually use.
                 </p>
                 </div>
             </div>
