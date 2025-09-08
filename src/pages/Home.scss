@@ -1,4 +1,8 @@
 .Home {
+    background-image: url('background.jpg'); /* your image */
+    background-size: cover;        /* makes the image fill the whole area */
+    background-position: center;   /* centers the image */
+    background-repeat: no-repeat;  /* prevents tiling */  
     background: rgb(0, 0, 0);
     width: 100%;
     min-height: 250vh;
