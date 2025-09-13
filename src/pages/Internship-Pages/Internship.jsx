@@ -5,6 +5,14 @@ import { useNavigate } from "react-router-dom";
 import image from './WLU-Hero.png';
 
 const InternshipData = [
+     { id: "Blueprint", 
+      name: "Software Developer", 
+      description: "I did ................", 
+      mainskills: [" Consutlancy ", " excel "], 
+      image: image, link:"fjf",  
+      softskills: ["Excel", "Gmail API", "Automation"],
+      technicalskills: ["Excel", "Gmail API", "Automation"]
+    },
     { id: "DBM-Systems", 
       name: "Business Analyst", 
       description: "I did ................", 
@@ -34,7 +42,7 @@ export const Internship = () => {
         <div className="internship">
             <h1 className="title">My Internship Experiences!</h1>
             <div className="intern-layout">
-                {InternshipData.map(internship => (//looping throught the internships
+                {InternshipData.map(internship => (//looping through the internships
                     <div key={internship.id} className="internship-box" onClick={() => navigate(`/Internship/${internship.id}`)}> 
                         <img src={internship.image} alt={internship.name} />
                         <div className="overlay">

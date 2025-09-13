@@ -91,7 +91,7 @@
             content: "";
             position: absolute;
             inset: 0; // shorthand for top, right, bottom, left: 0
-            background: rgba(0, 0, 0, 0.2); // black tint at 40% opacity
+            background: rgba(0, 0, 0, 0); // black tint at 40% opacity
             transition: background 0.3s ease-in-out;
             z-index: 1; // make sure it sits above the image but below text
         }

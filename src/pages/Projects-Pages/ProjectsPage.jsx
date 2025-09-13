@@ -33,13 +33,13 @@ export const ProjectsPage = () => {
                 ))}
             </div>
             <h4 className="description-title"> Description:</h4>
+            
             {project.description.map(([question, answer], index) => (
                 <div key={index}>
                     <strong>{question}</strong><br />
                     {answer}<br /><br />
                 </div>
             ))}
-            <div className="description-body">{project.description}</div>
             <iframe className="link" src={project.link}></iframe>
         </div>
     </div>
