@@ -17,7 +17,7 @@ const projectData = [
     banner: Blueprint,
     softskills: ["Agile Collaboration", "Teamwork", "Communication"],
     technicalskills: ["TypeScript", "React.js", "Node.js/Express", "PostgreSQL", "Docker"],
-    description: "Worked in a 15-member agile team at UW Blueprint to build a full-stack volunteer management system for the Oakville & Milton Humane Society. My main contributions included developing secure email-based authentication and an intuitive filter-search feature, allowing 500+ volunteers to easily find and sign up for opportunities. I implemented backend routes in Express, optimized PostgreSQL queries for performance, and added caching to deliver sub-second results. Additionally, I containerized the entire app with Docker, reducing developer onboarding time by 80% and improving CI/CD workflows, which sped up feature delivery significantly.",
+    description: [["what is Blueprint", " BluePrint is a non Profit student lead organization that works with NGO's in need of software to help them run smoother."]] "What is BluePrint?  Worked in a 15-member agile team at UW Blueprint to build a full-stack volunteer management system for the Oakville & Milton Humane Society. My main contributions included developing secure email-based authentication and an intuitive filter-search feature, allowing 500+ volunteers to easily find and sign up for opportunities. I implemented backend routes in Express, optimized PostgreSQL queries for performance, and added caching to deliver sub-second results. Additionally, I containerized the entire app with Docker, reducing developer onboarding time by 80% and improving CI/CD workflows, which sped up feature delivery significantly.",
     link: "https://uwblueprint.org/about",
     View: "View Project"
   },

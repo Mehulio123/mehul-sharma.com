@@ -10,13 +10,13 @@ export const Home = () => {
     <div className="Home">
             <h1 className="Home_title">
                 Hello, I am Mehul and <br /> Welcome to my Portfolio!
-            </h1>
+            </h1> 
 
 
-        {/* About Me Section */}
+        {/* This is the About Me Section, it shows a picture of me and who I am */}
         <div className="about-me-section">
             <div className="about-me">
-                <h2>About Me</h2>
+                <h2>About Me</h2> 
                 <div className="my-picture">
                 <img src={meImage} />
                 </div>
@@ -34,27 +34,18 @@ export const Home = () => {
             </h1>
 
             <div className="higlights-content">
-                {/*This is the big image that's clickable*/}
-                <div className="big-box" onClick={() => window.location.href="/Project"}>
+                {/*This is the big image that's clickable to take to my good projects*/}
+                <div className="big-box" onClick={() => window.location.href="/Project/Uw%20Blueprint"}>
                     <img src={box1} alt="featured project 1"/>
-                    <div className="overlay"> {/* the overlay */}
-                        <p>Project One</p>
-                    </div>
                 </div>
 
                 <div className="two-buttons">
-                    <div className="small-box"  onClick={() => window.location.href="/Project"} >
+                    <div className="small-box"  onClick={() => window.location.href="/Project/CityGuessr"} >
                         <img src={box2} alt="featured project 2"/>
-                        <div className="overlay"> {/* the overlay */}
-                            <p>Project Two</p>
-                        </div>
                     </div>
 
-                    <div className="small-box"  onClick={() => window.location.href="/Project"} >
+                    <div className="small-box"  onClick={() => window.location.href="/Project/Worldpop"} >
                         <img src={box3} alt="featured project 3"/>
-                        <div className="overlay"> {/* the overlay */}
-                            <p>Project three</p>
-                        </div>
                     </div>
                 </div>
             </div> 

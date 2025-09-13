@@ -19,7 +19,7 @@ const data = [
     },
 
     {
-        label: 'Internships',
+        label: 'Internship',
         to: '/Internship'
     },
 
